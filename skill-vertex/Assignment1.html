@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Assessment-1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="./img/OIP.jpg" alt="html logo">
+</head>
+
+<body>
+	<header>
+		<h1 align="center"><mark> HTML5 Tags & Attributes</mark></h1><hr width="50%">
+		<abbr title="Hyper Text Markup Language">HTML</abbr>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<article>
+				<h2>About Us</h2>
+				<p>We are a team of developers who are passionate about creating innovative solutions using the latest
+					technologies.</p>
+				<blockquote>
+					<p>"The future belongs to those who believe in the beauty of their dreams."</p>
+					<footer>[Mancha Venu]</footer>
+				</blockquote>
+			</article>
+			<details>
+				<summary>What is HTML<strong> 	->></strong></summary>
+				<p>HTML is a markup language for describing the structure of web pages.</p>
+			</details>
+			<aside>
+				<h3>Our Team</h3>
+				<ol start="1">
+					<li>John - CEO</li>
+					<li>Jane - CTO</li>
+					<li>Johnson - Lead Developer</li>
+				</ol>
+			</aside>
+		</section>
+
+		<section id="services">
+			<h2 align="center">Our Services</h2>
+			<table border="1px" align="center">
+				<thead>
+					<tr>
+						<th>Service</th>
+						<th>Description</th>
+						<th>Price</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Web Design</td>
+						<td>We design beautiful, responsive websites that will help your business stand out online.</td>
+						<td>$500</td>
+					</tr>
+					<tr>
+						<td>Web Development</td>
+						<td>We develop custom web applications that will meet your unique business needs.</td>
+						<td>$1000</td>
+					</tr>
+					<tr>
+						<td>SEO</td>
+						<td>We optimize your website to help it rank higher in search engine results pages.</td>
+						<td>$200/month</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter the name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter the Email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" placeholder="Message" required></textarea>
+
+				<input type="submit" value="Send">
+				<p>The Live class starts at <time><strong>7:00 pm</strong></time> everyday.</p>
+				<p>The concert took place on <time datetime="2016-12-31 12:00"><u>31 Dec</u></time>.</p>
+			</form>
+		</section>
+		<section>
+			<h2>My Heading 2</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed justo quis urna facilisis scelerisque
+				eget quis sapien. Sed auctor, felis sit amet ullamcorper rutrum, enim sapien consequat ante, non blandit
+				velit dolor a nunc. Nullam sed laoreet massa. Duis maximus congue dolor ac rutrum.</p>
+			
+			<video width="400" height="300px" controls>
+				<source src="./assets/pexels-pixabay-856528-2160x2160-24fps.mp4" type="video/mp4">
+			</video>
+			<audio controls>
+				<source src="./assets/horse.mp3" type="audio/mp3">
+			</audio>
+			<figure>
+                <img src="../img/HTML5.jpg" width="400" height="250" alt="HTML5 image">		
+        		<figcaption>HTML-IMAGE</figcaption>
+				<svg width="500" height="350">
+					<rect x="60" y="50" width="300" height="150" fill="green" stroke="black" stroke-width="5" />
+				</svg>
+			</figure>
+			
+		</section>
+	</main><hr>
+
+	<footer>
+		<p align="center">&copy; 2023 HTML5 Page. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
